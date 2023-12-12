@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>🤝 Ayuda 🤝 Shaolin Monks</title>
-    <link rel="stylesheet" href="../CSS/Style.css">
-    <meta name="description" content="Somos la tienda que esta revolucionando la moda de los buzos y remeras, con estilo asiatico aesthetic">
+    <link rel="stylesheet" href="../CSS/estilo.css">
+    <!-- CSS BS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <meta name="description" content="Necesitas ayuda con algun producto o metodos de pago entra aqui">
 </head>
+
 <body>
-    <header>
+    <!--<header>
         <a href="../index.html">
             <img class="logo" src="../img/cat-with-sword-japanese-art-samurai-ninja-gift-thomas-larch-transparent.png" alt="Logo Shaolin Monks">
         </a>
@@ -25,29 +30,53 @@
 
 
 
-    </header>
+    </header>-->
 
-    <main href="ayuda">
+    <!-- nav bs-->
+
+    <nav class="navbar navbar-expand-lg encabezado">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html"><img class="logo"
+                    src="../img/cat-with-sword-japanese-art-samurai-ninja-gift-thomas-larch-transparent.png"
+                    alt="Logo Shaolin Monks"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li><a class="encabezado" href="Productos.html">Productos</a></li>
+                    <li><a class="encabezado" href="Contacto.html">Contacto</a></li>
+                    <li><a class="encabezado" href="Sucursales.html">Sucursales</a></li>
+                    <li><a class="encabezado" href="Ayuda.html">Ayuda</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="subtitulo">
         <h1>PREGUNTAS FRECUENTES</h1>
 
         <h2>¿Cuáles son los métodos de pago?</h2>
 
-        <p class="ph1">Para las compras online, contamos con todas las tarjetas de créditos, débito, Mercado Pago y pagos en efectivo.</p>
+        <p class="ph1">Para las compras online, contamos con todas las tarjetas de créditos, débito, Mercado Pago y
+            pagos en efectivo.</p>
 
         <p class="ph1">Podrás visualizarlas de esta manera al momento de cerrar tu compra:</p>
 
         <div class="ContenedorMetodo">
             <img class="imgPago" src="../img/Metodos de pago.jpeg" alt="Metodos de Pago">
 
-            <a href="https://api.whatsapp.com/send?phone=54861551364&text=Hola%20quiero%20comprar%20ropa" target="_blank">
+            <a href="https://api.whatsapp.com/send?phone=54861551364&text=Hola%20quiero%20comprar%20ropa"
+                target="_blank">
                 <img class="whats" src="../img/WhatsApp.png" alt="Logo de WhatsApp">
             </a>
         </div>
-    
+
     </main>
 
-    
-    <footer> 
+
+    <footer>
         <a class="link" href="https://www.Facebook.com/" target="_blank">Facebook</a>
 
         <a class="link" href="https://www.Instagram.com/" target="_blank">Instagram</a>
@@ -55,10 +84,15 @@
         <a class="link" href="https://twitter.com/" target="_blank">Twitter</a>
 
         <a class="link" href="https://ar.pinterest.com/" target="_blank">Pinterest</a>
-        
+
         <h3>Shaolin Monks - Copyright 2023</h3>
 
         <h4>Sitio Creado por Martin Loblein</h4>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
